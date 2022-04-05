@@ -1,10 +1,10 @@
 function myForLoop1() {
     var evenNumbers = "";
-    var suffix = ", ";
+    var comma = ", ";
     for (var i = 0; i < 10; i++) {
         if (i % 2 === 0) {
-            suffix = i === 8 ? "" : ", ";
-            evenNumbers += i + suffix;
+            comma = i === 8 ? "" : ", ";
+            evenNumbers += i + comma;
         } 
         
     }
@@ -14,11 +14,11 @@ function myForLoop1() {
 
 function myForLoop2() {
     var evenInverseNumbers = "";
-    var suffix = ", ";
+    var comma = ", ";
     for (var i = 8; i >= 0; i--) {
         if (i % 2 === 0) {
-            suffix = i === 0 ? "" : ", ";
-            evenInverseNumbers += i + suffix;
+            comma = i === 0 ? "" : ", ";
+            evenInverseNumbers += i + comma;
         }
     }
     return evenInverseNumbers;

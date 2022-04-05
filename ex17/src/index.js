@@ -2,8 +2,8 @@ function inverseWhile() {
     var counter = 5;
     var fiveNumbers = "";
     while(counter >= 0) {
-        var suffix = counter === 0 ? "" : ",";
-        fiveNumbers += counter + suffix;
+        var comma = counter === 0 ? "" : ",";
+        fiveNumbers += counter + comma;
         counter--;
     }
     return fiveNumbers;
