@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Gigi School of Coding</title>
+    </head>
+    <body>
+            <h2>CatPhotoApp</h2>
+            <main>
+            <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff</p>
+            <h2 id="footer">footer</h2>
+            <p>Things cats love:</p>
+            <ul>
+                <li>scratching</li>
+                <li>chasing</li>
+                <li>playing</li>
+            </ul>
+            <input type="text" placeholder="cat photo URL">
+            <p>Top 3 things cats hate:</p>
+            <ol>
+                <li>water</li>
+                <li>dogs</li>
+                <li>being told what to do</li>
+            </ol>
+            <input type="text" placeholder="cat photo URL">
+            <form action="/submit-cat-photo">
+                <input type="text" required>
+                <button type="submit">Submit</button>
+            </form>
+            <!--Without any text input when we press the submit button we get a message "Please fill out this field."-->
+            <div>
+                <label for="inside">
+                    <input id="inside" type="radio" name="inside-outside" value="Inside" checked>
+                </label>
+            
+                <label for="outside">
+                    <input id="outside" type="radio" name="inside-outside" value="Outside">
+                </label>
+            </div>
+            
+            <div>
+                <label for="dog">
+                    <input type="checkbox" name="name" value="Dog" checked>
+                </label>
+                <label for="cat">
+                    <input type="checkbox" name="name" value="Cat">
+                </label>
+                <label for="hamster">
+                    <input type="checkbox" name="name" value="Hamster">
+                </label>
+                <label for="bird">
+                    <input type="checkbox" name="name" value="Bird">
+                </label>
+                <label for="fish">
+                    <input type="checkbox" name="name" value="Fish">
+                </label>    
+            </div>
+            </main>
+    </body>
+
+</html>
+
