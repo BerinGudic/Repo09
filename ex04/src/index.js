@@ -1,5 +1,5 @@
 function compareDifferentValues(m, n) {
-    if (m === n) {
+    if(m === n) {
         return "Equal";
     }
     return "Not equal";
